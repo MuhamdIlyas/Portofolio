@@ -1,0 +1,16 @@
+.navbar{
+    background-color: aqua;
+}
+
+.navbar-nav .nav-link {
+    color: #eaeaea !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffffff !important;
+    font-weight: 500;
+    transition: ease-out;
+    transition-duration: 0.15s;
+    text-decoration: underline;
+    padding: 10px;
+}
