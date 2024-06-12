@@ -29,7 +29,7 @@ class JumbotronSection extends HTMLElement {
                             Sekarang</a>
                     </section>
                     <section class="col-lg-6 col-12 m-auto mt-3">
-                        <img src="${element.image}"
+                        <img src="${element.gif}"
                             alt="${element.alt}" class="img-fluid rounded">
                     </section>
                 </div>

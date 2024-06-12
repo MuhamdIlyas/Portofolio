@@ -1,6 +1,6 @@
 .navbar{
     background-color: #343A40;
-    box-shadow: #2e2f2b;
+    box-shadow: #000218;
 }
 
 .navbar-nav .nav-link {
@@ -20,4 +20,9 @@
     height: 100%;
     background-color: #343A40;
     color: #ffffff;
+}
+
+.img-fluid {
+    width: 300px;
+    height: auto;
 }
