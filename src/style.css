@@ -1,5 +1,6 @@
 .navbar{
     background-color: #343A40;
+    box-shadow: #2e2f2b;
 }
 
 .navbar-nav .nav-link {
@@ -13,4 +14,10 @@
     transition-duration: 0.15s;
     text-decoration: underline;
     padding: 10px;
+}
+
+.jumbotron {
+    height: 100%;
+    background-color: #343A40;
+    color: #ffffff;
 }
