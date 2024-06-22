@@ -21,14 +21,14 @@ class JumbotronSection extends HTMLElement {
             <div class="jumbotron py-3">
                 <div class="container row mx-auto py-5 my-5">
                     <section class="col-lg-6 col-12 m-auto text-center">
-                        <h2>${element.title}</h2>
+                        <h2 style="text-align: left;">${element.title}</h2>
                         <p class="fs-5 lh-lg">
                             ${element.description}
                         </p>
                         <a href="#content" class="btn btn-lg btn-outline-light" type="button">Coba
                             Sekarang</a>
                     </section>
-                    <section class="col-lg-6 col-12 m-auto mt-3">
+                    <section class="col-lg-4 col-8 m-auto mt-3">
                         <img src="${element.gif}"
                             alt="${element.alt}" class="img-fluid rounded">
                     </section>
